@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/backend.js"></script>
+  <body>
+    <h1>Clap Vision</h1>
+    <div>
+        <img id="video-feed" src="{{ url_for('object_detection_video') }}" width="50%"/>
+        <br>
+        <br>
+        <p id="output">Loading...</p>
+        <p id="output2">Loading...</p>
+        <p id="output3">Loading...</p>
+        <button id="startObjectDetectionBtn" onclick="toggleObjectDetection()">Start Object Detection</button>
+        <button id="startBaseCameraBtn" onclick="toggleBaseCamera()">Start Face Detection</button>
+        <button id="startFaceRecog" onclick="toggleFaceRecog()">Run Currency Detection</button>
+    </div>
+    <script>
+        function loadResultPage() {
+            var newUrl = '/testface';
+            window.location.href = newUrl;
+        }
+    </script>
+    </body>
+</html>

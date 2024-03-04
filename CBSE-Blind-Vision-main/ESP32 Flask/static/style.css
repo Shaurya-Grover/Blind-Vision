@@ -1,0 +1,56 @@
+#startObjectDetectionBtn{
+    /* color: black; */
+    width: 247px;
+    height: 122px;
+    border: 2px solid white;
+    border-radius: 50px;
+    /* height: 80px; */
+    font-weight: 700;
+    position: relative;
+    top: 268px;
+    left:  287px;
+    color: white;
+    background-color: black;
+    font-size: 29px;
+}
+
+#startBaseCameraBtn{
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 439px;
+    left: 40px;
+    width: 247px;
+    height: 122px;
+    border-radius: 50px;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+#startFaceRecog{
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 613px;
+    left: -213px;
+    width: 247px;
+    height: 122px;
+    border-radius: 50px;
+    font-size: 29px;
+    font-weight: 700;
+}
+#output{
+    position: relative;
+    left: 700px;
+    top: 404px;
+}
+#output2{
+    position: relative;
+    left: 700px;
+    top: 517px;
+}
+#output3{
+    position:relative;
+    left: 693px;
+    top: 686px;
+}
