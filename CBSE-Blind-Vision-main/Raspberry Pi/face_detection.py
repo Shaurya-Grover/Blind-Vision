@@ -5,7 +5,7 @@ import pyttsx3
 import RPi.GPIO as GPIO
 import time
 
-modelpath = 'Weights/face.tflite'
+modelpath = 'Weights/detect.tflite'
 lblpath = 'Weights/face.txt'
 min_conf = 0.75
 cap = cv2.VideoCapture(0)
